@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/OnlineBookStore.war /app/OnlineBookStore.war
 
 # Expose the port that the application will run on
-EXPOSE 8080
+EXPOSE 9090
 
 # Command to run the WAR file
 CMD ["java", "-jar", "/app/OnlineBookStore.war"]
